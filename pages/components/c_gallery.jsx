@@ -1,4 +1,5 @@
 import React from "react";
+import Script from "next/script";
 const C_gallery = () => {
   return (
     <div>
@@ -131,7 +132,7 @@ const C_gallery = () => {
           <div className="col-md-4 col-sm-6">
             <div className="box4">
               <img
-                className="pic-1"
+                className="pic-1 rounded-circle "
                 src="img/1.JPG"
               />
               <div className="box-content">
@@ -144,7 +145,7 @@ const C_gallery = () => {
           <div className="col-md-4 col-sm-6">
             <div className="box4">
               <img
-                className="pic-1"
+                className="pic-1 rounded-circle "
                 src="img/1.JPG"
               />
               <div className="box-content">
@@ -157,7 +158,7 @@ const C_gallery = () => {
           <div className="col-md-4 col-sm-6">
             <div className="box4">
               <img
-                className="pic-1"
+                className="pic-1 rounded-circle "
                 src="img/1.JPG"
               />
               <div className="box-content">
@@ -173,3 +174,4 @@ const C_gallery = () => {
   );
 };
 export default C_gallery;
+ 

@@ -8,10 +8,13 @@ import { useEffect } from "react";
 import AOS from "aos";
 import 'aos/dist/aos.css';
 
+
 function MyApp({ Component, pageProps }) {
   useEffect(() => {
     import("bootstrap/dist/js/bootstrap.bundle");
+    
   }, []);
+  
   useEffect(() => {
     AOS.init({
       easing: "ease-out-cubic",

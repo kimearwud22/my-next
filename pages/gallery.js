@@ -5,6 +5,7 @@ import Header from "./components/header";
 import C_gallery from "./components/c_gallery";
 import Foto from "./components/foto";
 import Footer from "./components/footer";
+import Script from "next/script";
 
 
 export default function Gallery() {
